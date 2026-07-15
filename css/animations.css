@@ -1,0 +1,10 @@
+.item,
+.card,
+details {
+  transition: 0.3s;
+}
+.item:hover,
+.card:hover,
+details:hover {
+  transform: translateY(-4px);
+}

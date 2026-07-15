@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .timeline,
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .hero {
+    height: 50vh;
+  }
+}
