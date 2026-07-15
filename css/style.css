@@ -837,3 +837,76 @@ color:#cbd5e1;
 
 }
 
+
+
+#glosarios-equipo{
+padding:80px 0;
+background:#f8fafc;
+}
+#glosarios-equipo .integrante-card{
+text-align:center;
+}
+#glosarios-equipo .btn-primary{
+display:inline-block;
+margin-top:15px;
+}
+
+/*==========================
+ GLOSARIOS DEL EQUIPO
+==========================*/
+
+#glosarios-equipo{
+
+padding:80px 0;
+
+background:#f8fafc;
+
+}
+
+.team-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.team-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.team-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.team-card h3{
+
+margin-bottom:10px;
+
+}
+
+.team-card p{
+
+margin-bottom:20px;
+
+color:#666;
+
+}
